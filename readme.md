@@ -1,14 +1,18 @@
+# 1. Quick Start
 Quick Start
 bash# 1. Install dependencies
+```
 npm install
-
+```
 # 2. Setup .env
+```
 DATABASE_URL="postgresql://user:pass@localhost:5432/db"
 OPENAI_API_KEY="sk-..."
-
+```
 # 3. Start server
+```
 npm run dev
-
+```
 // After starting the server for the mock data run this commnd
 ```
 node src/scripts/seedAll.js
