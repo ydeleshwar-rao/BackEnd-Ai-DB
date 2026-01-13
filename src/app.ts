@@ -2,7 +2,7 @@ import { createApp } from './config/app.config';
 import customerRoutes from './modules/customers/customers.routes';
 import jobRoutes from './modules/jobs/jobs.routes';
 import bookingRoutes from './modules/bookings/bookings.routes'
-import aiRoutes  from './ai//api/ai.routes'
+import aiRoutes  from './ai/api/ai.routes'
 import { errorHandler } from './utils/errorHandler';
 
 const app = createApp();
