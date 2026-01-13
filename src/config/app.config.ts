@@ -6,7 +6,7 @@ export function createApp() {
   const app = express();
 
   app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://front-end-ai-db.vercel.app/',
     credentials: true
   }));
   app.use(express.json());
